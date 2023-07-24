@@ -1,0 +1,10 @@
+:root {
+    color: bisque;
+
+}
+
+body {
+   background-color: var(color);
+}
+
+h1 {background-color: bisque;}
