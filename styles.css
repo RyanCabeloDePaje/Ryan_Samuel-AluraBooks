@@ -1,5 +1,5 @@
 :root {
-   background-color: bisque;
+   background-color: rgb(0, 0, 0);
 
 }
 
@@ -7,7 +7,7 @@ body {
    background-color: var(color);
 }
 
-h1 {background-color: bisque;}
+h1 {background-color: rgb(0, 0, 0) 0, 0);}
 
 .cabeçalho{display: flex;}
 
