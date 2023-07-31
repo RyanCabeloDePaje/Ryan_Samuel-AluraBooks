@@ -9,6 +9,8 @@ body {
 
 h1 {background-color: bisque;}
 
+.cabeçalho{display: flex;}
+
 .lista-menu {
    display: none;
    position: absolute;
