@@ -8,3 +8,38 @@ body {
 }
 
 h1 {background-color: bisque;}
+
+.lista-menu {
+   display: none;
+   position: absolute;
+   _______: _______;
+   _______: _______;
+}
+:root {
+   --fonte-principal: "__________";
+}
+body {
+   font-family: var(______________);
+   font-weight: ______;
+}
+.lista-menu__titulo{
+   _____________: 700;
+}
+.banner__pesquisa {
+   background-color: _________________;
+   border: 1px solid var(--branco);
+   color: var(--branco);
+   _______________: 24px;
+   padding: 1em;
+   width: 100%;
+}
+
+.banner__pesquisa::___________________ {
+   font-family: var(--fonte-principal);
+   font-size: 14px;
+   font-weight: 400;
+   ______________: center;
+   color: var(--branco);
+   _______________: url("../img/Lupa.svg") no-repeat;
+   background-position: 1em;
+}
