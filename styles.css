@@ -26,30 +26,30 @@ h1 {background-color: rgb(255, 255, 255) 0, 0);}
    
 }
 :root {
-   --fonte-principal: "__________";
+   --fonte-principal: "poppins";
 }
 body {
-   font-family: var(______________);
-   font-weight: ______;
+   font-family: var(--fonte-principal);
+   font-weight: 400;
 }
 .lista-menu__titulo{
-   _____________: 700;
+   font-weight: 700;
 }
 .banner__pesquisa {
-   background-color: _________________;
+   background-color: transparent;
    border: 1px solid var(--branco);
    color: var(--branco);
-   _______________: 24px;
+   border-radius: 24px;
    padding: 1em;
    width: 100%;
 }
 
-.banner__pesquisa::___________________ {
+.banner__pesquisa::placeholder {
    font-family: var(--fonte-principal);
    font-size: 14px;
    font-weight: 400;
-   ______________: center;
+   text-decoration: center;
    color: var(--branco);
-   _______________: url("../img/Lupa.svg") no-repeat;
+   background: url("../img/Lupa.svg") no-repeat;
    background-position: 1em;
 }
